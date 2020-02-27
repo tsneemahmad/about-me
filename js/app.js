@@ -1,11 +1,9 @@
 'use strict';
 var name = prompt("what's your name?");
-console.log(name)
 alert(`hello & welcome to the website ${name} wish you a joy visit`);
 var mark = 0
 
 var know = prompt("do you know me personally?").toLowerCase();
-console.log(know);
 if (know === 'yes' || know === 'y') {
     mark = mark + 1;
     alert('your answer is right');
@@ -17,7 +15,6 @@ if (know === 'yes' || know === 'y') {
 }
 
 var know2 = prompt("do you think i love sport?").toLowerCase();
-console.log(know2);
 if (know2 === 'yes' || know2 === 'y') {
     mark= mark+1;
     alert('bingo, im addicted to sport');
@@ -28,7 +25,6 @@ if (know2 === 'yes' || know2 === 'y') {
 }
 
 var know3 = prompt("I love my speciality?").toLowerCase();
-console.log(know3);
 if (know3 === 'yes' || know3 === 'y') {
     mark= mark + 1;
     alert('your answer is right');
@@ -39,7 +35,6 @@ if (know3 === 'yes' || know3 === 'y') {
 }
 
 var know4 = prompt("am i a tea person?").toLowerCase();
-console.log(know4);
 if (know4 === 'yes' || know4 === 'y') {
     mark= mark + 1;
     alert('no im a coffee person');
@@ -50,7 +45,6 @@ if (know4 === 'yes' || know4 === 'y') {
 }
 
 var know5 = prompt("i like daisy?").toLowerCase();
-console.log(know5);
 if (know5 === 'yes' || know5 === 'y') {
     mark= mark + 1;
     alert('your answer is right');
@@ -66,7 +60,6 @@ alert(`thank you for your time,
 for (var trial = 0; trial < 4; trial++) {
 
     var know6 = prompt("try to guess my age!");
-    console.log(know6);
     if (know6 == 23) {
         mark= mark + 1;
         alert('you are right');
@@ -87,10 +80,8 @@ if (trial === 4) {
 
 var flowersILove = ['daisy', 'rose', 'jasmine', 'sunflower']
 for (var i = 0; i < 6; i++) {
-    console.log(flowersILove[i]);
 
     var userAnswer = prompt('one of the flowers i love is?')
-    console.log(userAnswer);
     if (userAnswer === 'daisy' || userAnswer === 'rose' || userAnswer === 'jasmine' || userAnswer === 'sunflower') {
         mark= mark + 1;
         alert('you are right');
